@@ -1,7 +1,13 @@
 {
     "name": "os-downtime/satis",
     "homepage": "https://github.com/os-downtime/satis",
-    "repositories": [],
+    "repositories": [
+        {
+            "name": "os-downtime/common",
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/common"
+        }
+    ],
     "require-all": true,
     "output-dir": "docs/"
 }

@@ -1,0 +1,44 @@
+{
+    "packages": {
+        "os-downtime/common": {
+            "dev-main": {
+                "name": "os-downtime/common",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/common.git",
+                    "reference": "ebc81ce1be21789d4cfbe32dbaa8b750c9b07604"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/common/zipball/ebc81ce1be21789d4cfbe32dbaa8b750c9b07604",
+                    "reference": "ebc81ce1be21789d4cfbe32dbaa8b750c9b07604",
+                    "shasum": ""
+                },
+                "time": "2025-04-10T16:30:17+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\Common\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "Common classes for domain oriented applications",
+                "support": {
+                    "source": "https://github.com/os-downtime/common/tree/main",
+                    "issues": "https://github.com/os-downtime/common/issues"
+                }
+            }
+        }
+    }
+}

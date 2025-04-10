@@ -1,0 +1,7 @@
+{
+    "name": "os-downtime/satis",
+    "homepage": "https://github.com/os-downtime/satis",
+    "repositories": [],
+    "require-all": true,
+    "output-dir": "docs/"
+}

@@ -9,6 +9,8 @@ on:
 
 jobs:
   build:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -23,5 +25,5 @@ jobs:
           git config user.name $GIT_NAME
           git config user.email $GIT_EMAIL
           git add docs/
-          git commit -m "Re-built repository assets for $"
+          git commit -m "Re-built repository assets"
           git push

@@ -1,12 +1,15 @@
 {
     "packages": [],
     "includes": {
-        "include/all$f043d469c59a77418c41cc57dddee82b7bc92413.json": {
-            "sha1": "f043d469c59a77418c41cc57dddee82b7bc92413"
+        "include/all$f98249d7a66eb75afc83cb242ef38b4e9b69dff2.json": {
+            "sha1": "f98249d7a66eb75afc83cb242ef38b4e9b69dff2"
         }
     },
     "metadata-url": "/os-downtime/satis/p2/%package%.json",
     "available-packages": [
-        "os-downtime/common"
+        "os-downtime/common",
+        "os-downtime/document-storage",
+        "os-downtime/extended-php",
+        "os-downtime/messaging"
     ]
 }

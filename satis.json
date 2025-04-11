@@ -6,6 +6,21 @@
             "name": "os-downtime/common",
             "type": "vcs",
             "url": "https://github.com/os-downtime/common"
+        },
+        {
+            "name": "os-downtime/extended-php",
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/extended-php"
+        },
+        {
+            "name": "os-downtime/document-storage",
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/document-storage"
+        },
+        {
+            "name": "os-downtime/messaging",
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/messaging"
         }
     ],
     "require-all": true,

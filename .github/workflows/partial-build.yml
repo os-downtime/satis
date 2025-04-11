@@ -1,0 +1,27 @@
+name: Partial Composer Rebuild
+
+on:
+  workflow_dispatch:
+    inputs:
+      package:
+        type: string
+        description: Package name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jmbarne3/satis-partial-build@v1
+        with:
+          token: ${{ secrets.BOT_SATIS_TOKEN }}
+          package: $
+      - env:
+          GIT_EMAIL: os-downtime-bot@googlegroups.com
+          GIT_NAME: os-downtime-bot
+        run: |
+          git config user.name $GIT_NAME
+          git config user.email $GIT_EMAIL
+          git add docs/
+          git commit -m "Re-built repository assets for $"
+          git push

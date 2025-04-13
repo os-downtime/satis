@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$27a5d771a5bbb9fdbc38bbaeeb311aaf020927fd.json": {
-            "sha1": "27a5d771a5bbb9fdbc38bbaeeb311aaf020927fd"
+        "include/all$c7cf419cdfcea534526c2991fe9dbefa30f4016d.json": {
+            "sha1": "c7cf419cdfcea534526c2991fe9dbefa30f4016d"
         }
     },
     "metadata-url": "/os-downtime/satis/p2/%package%.json",

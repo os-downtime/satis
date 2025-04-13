@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/common.git",
-                    "reference": "ebc81ce1be21789d4cfbe32dbaa8b750c9b07604"
+                    "reference": "1481dacfdc34ec5a436a232e38b69537f4072551"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/common/zipball/ebc81ce1be21789d4cfbe32dbaa8b750c9b07604",
-                    "reference": "ebc81ce1be21789d4cfbe32dbaa8b750c9b07604",
+                    "url": "https://api.github.com/repos/os-downtime/common/zipball/1481dacfdc34ec5a436a232e38b69537f4072551",
+                    "reference": "1481dacfdc34ec5a436a232e38b69537f4072551",
                     "shasum": ""
                 },
-                "time": "2025-04-10T16:30:17+00:00",
+                "time": "2025-04-11T15:31:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

@@ -12,9 +12,9 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/os-downtime/satis/dist/os-downtime/messaging/os-downtime-messaging-c3dc39d75b283f553e6950badb1f74ccac6bac7d-zip-07ddd4.zip",
+                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/c3dc39d75b283f553e6950badb1f74ccac6bac7d",
                     "reference": "c3dc39d75b283f553e6950badb1f74ccac6bac7d",
-                    "shasum": "40e545b88520fe26a6af592f5f87298cfeb2e1ee"
+                    "shasum": ""
                 },
                 "require": {
                     "symfony/config": "^7.2",
@@ -24,7 +24,6 @@
                 "time": "2025-04-13T08:21:19+00:00",
                 "default-branch": true,
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\Messaging\\": "src/"

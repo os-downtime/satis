@@ -1,11 +1,11 @@
 {
     "packages": [],
     "includes": {
-        "include/all$8c631cb21c2e8b6ab0bfcd9be4e04bb66ac5baa7.json": {
-            "sha1": "8c631cb21c2e8b6ab0bfcd9be4e04bb66ac5baa7"
+        "include/all$bfe6931bc12fb86feb4dfb2a8d1dee9dd40a6c63.json": {
+            "sha1": "bfe6931bc12fb86feb4dfb2a8d1dee9dd40a6c63"
         }
     },
-    "metadata-url": "/os-downtime/satis/p2/%package%.json",
+    "metadata-url": "/satis/p2/%package%.json",
     "available-packages": [
         "os-downtime/common",
         "os-downtime/document-storage",

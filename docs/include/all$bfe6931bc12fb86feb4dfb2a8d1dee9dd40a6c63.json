@@ -12,14 +12,13 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/os-downtime/satis/dist/os-downtime/common/os-downtime-common-8f79f59b1ef06c83c30dc01348f93ad19fe1ab19-zip-254f3c.zip",
+                    "url": "https://api.github.com/repos/os-downtime/common/zipball/8f79f59b1ef06c83c30dc01348f93ad19fe1ab19",
                     "reference": "8f79f59b1ef06c83c30dc01348f93ad19fe1ab19",
-                    "shasum": "2666dfde7869ff51f1b391aba066cceb5abf92fd"
+                    "shasum": ""
                 },
                 "time": "2025-04-13T08:16:09+00:00",
                 "default-branch": true,
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\Common\\": "src/"
@@ -53,9 +52,9 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/os-downtime/satis/dist/os-downtime/document-storage/os-downtime-document-storage-dd8bfc054f6578a8b2eb335395a94971aa494f07-zip-567d07.zip",
+                    "url": "https://api.github.com/repos/os-downtime/document-storage/zipball/dd8bfc054f6578a8b2eb335395a94971aa494f07",
                     "reference": "dd8bfc054f6578a8b2eb335395a94971aa494f07",
-                    "shasum": "55962898902d44f28e8ed94552134267bcbfefe7"
+                    "shasum": ""
                 },
                 "require": {
                     "doctrine/dbal": "^4.2",
@@ -69,7 +68,6 @@
                 "time": "2025-04-13T08:27:35+00:00",
                 "default-branch": true,
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\DocumentStorage\\": "src/"
@@ -103,13 +101,12 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/os-downtime/satis/dist/os-downtime/extended-php/os-downtime-extended-php-741cb2034f1b2aa19c16e82ab23f87f8863dbb11-zip-461e94.zip",
+                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/741cb2034f1b2aa19c16e82ab23f87f8863dbb11",
                     "reference": "741cb2034f1b2aa19c16e82ab23f87f8863dbb11",
-                    "shasum": "25e3fdaef1118733318f392f80af49ef582cd284"
+                    "shasum": ""
                 },
                 "time": "2025-04-13T08:25:52+00:00",
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\ExtendedPhp\\": "src/"
@@ -141,9 +138,9 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/os-downtime/satis/dist/os-downtime/extended-php/os-downtime-extended-php-741cb2034f1b2aa19c16e82ab23f87f8863dbb11-zip-461e94.zip",
+                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/741cb2034f1b2aa19c16e82ab23f87f8863dbb11",
                     "reference": "741cb2034f1b2aa19c16e82ab23f87f8863dbb11",
-                    "shasum": "25e3fdaef1118733318f392f80af49ef582cd284"
+                    "shasum": ""
                 },
                 "time": "2025-04-13T08:25:52+00:00",
                 "default-branch": true,
@@ -181,9 +178,9 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/os-downtime/satis/dist/os-downtime/messaging/os-downtime-messaging-c3dc39d75b283f553e6950badb1f74ccac6bac7d-zip-07ddd4.zip",
+                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/c3dc39d75b283f553e6950badb1f74ccac6bac7d",
                     "reference": "c3dc39d75b283f553e6950badb1f74ccac6bac7d",
-                    "shasum": "40e545b88520fe26a6af592f5f87298cfeb2e1ee"
+                    "shasum": ""
                 },
                 "require": {
                     "symfony/config": "^7.2",
@@ -193,7 +190,6 @@
                 "time": "2025-04-13T08:21:19+00:00",
                 "default-branch": true,
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\Messaging\\": "src/"

@@ -1,6 +1,6 @@
 {
     "name": "os-downtime/satis",
-    "homepage": "https://github.com/os-downtime/satis",
+    "homepage": "https://os-downtime.github.io/satis",
     "repositories": [
         {
             "name": "os-downtime/common",
@@ -23,10 +23,6 @@
             "url": "https://github.com/os-downtime/messaging"
         }
     ],
-    "archive": {
-        "directory": "dist",
-        "skip-dev": false
-    },
     "require-all": true,
     "output-dir": "docs/"
 }

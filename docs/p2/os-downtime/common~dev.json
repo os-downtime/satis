@@ -12,14 +12,13 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/os-downtime/satis/dist/os-downtime/common/os-downtime-common-8f79f59b1ef06c83c30dc01348f93ad19fe1ab19-zip-254f3c.zip",
+                    "url": "https://api.github.com/repos/os-downtime/common/zipball/8f79f59b1ef06c83c30dc01348f93ad19fe1ab19",
                     "reference": "8f79f59b1ef06c83c30dc01348f93ad19fe1ab19",
-                    "shasum": "2666dfde7869ff51f1b391aba066cceb5abf92fd"
+                    "shasum": ""
                 },
                 "time": "2025-04-13T08:16:09+00:00",
                 "default-branch": true,
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\Common\\": "src/"

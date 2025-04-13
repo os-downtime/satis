@@ -12,9 +12,9 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/os-downtime/satis/dist/os-downtime/document-storage/os-downtime-document-storage-dd8bfc054f6578a8b2eb335395a94971aa494f07-zip-567d07.zip",
+                    "url": "https://api.github.com/repos/os-downtime/document-storage/zipball/dd8bfc054f6578a8b2eb335395a94971aa494f07",
                     "reference": "dd8bfc054f6578a8b2eb335395a94971aa494f07",
-                    "shasum": "55962898902d44f28e8ed94552134267bcbfefe7"
+                    "shasum": ""
                 },
                 "require": {
                     "doctrine/dbal": "^4.2",
@@ -28,7 +28,6 @@
                 "time": "2025-04-13T08:27:35+00:00",
                 "default-branch": true,
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\DocumentStorage\\": "src/"

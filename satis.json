@@ -23,6 +23,10 @@
             "url": "https://github.com/os-downtime/messaging"
         }
     ],
+    "archive": {
+        "directory": "dist",
+        "skip-dev": false
+    },
     "require-all": true,
     "output-dir": "docs/"
 }

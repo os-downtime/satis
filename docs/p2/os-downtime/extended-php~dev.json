@@ -12,9 +12,9 @@
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/741cb2034f1b2aa19c16e82ab23f87f8863dbb11",
+                    "url": "https://github.com/os-downtime/satis/dist/os-downtime/extended-php/os-downtime-extended-php-741cb2034f1b2aa19c16e82ab23f87f8863dbb11-zip-461e94.zip",
                     "reference": "741cb2034f1b2aa19c16e82ab23f87f8863dbb11",
-                    "shasum": ""
+                    "shasum": "25e3fdaef1118733318f392f80af49ef582cd284"
                 },
                 "time": "2025-04-13T08:25:52+00:00",
                 "default-branch": true,

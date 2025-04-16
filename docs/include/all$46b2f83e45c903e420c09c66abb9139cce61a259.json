@@ -138,15 +138,15 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/extended-php.git",
-                    "reference": "741cb2034f1b2aa19c16e82ab23f87f8863dbb11"
+                    "reference": "f891a36cd09172a7ef41b635ff8483472f8fb4ee"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/741cb2034f1b2aa19c16e82ab23f87f8863dbb11",
-                    "reference": "741cb2034f1b2aa19c16e82ab23f87f8863dbb11",
+                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/f891a36cd09172a7ef41b635ff8483472f8fb4ee",
+                    "reference": "f891a36cd09172a7ef41b635ff8483472f8fb4ee",
                     "shasum": ""
                 },
-                "time": "2025-04-13T08:25:52+00:00",
+                "time": "2025-04-16T13:20:56+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -165,7 +165,7 @@
                 ],
                 "description": "Extra features to be considered as part of the language",
                 "support": {
-                    "source": "https://github.com/os-downtime/extended-php/tree/0.0.1",
+                    "source": "https://github.com/os-downtime/extended-php/tree/main",
                     "issues": "https://github.com/os-downtime/extended-php/issues"
                 }
             }

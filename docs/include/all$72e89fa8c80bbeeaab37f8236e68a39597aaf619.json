@@ -51,30 +51,41 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/document-storage.git",
-                    "reference": "0ef547fec927392fafc8e444e9135cd467eda161"
+                    "reference": "8a97d2ec7a12fd192c9711c71c7197e78be628a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/document-storage/zipball/0ef547fec927392fafc8e444e9135cd467eda161",
-                    "reference": "0ef547fec927392fafc8e444e9135cd467eda161",
+                    "url": "https://api.github.com/repos/os-downtime/document-storage/zipball/8a97d2ec7a12fd192c9711c71c7197e78be628a2",
+                    "reference": "8a97d2ec7a12fd192c9711c71c7197e78be628a2",
                     "shasum": ""
                 },
                 "require": {
                     "doctrine/dbal": "^4.2",
                     "doctrine/doctrine-bundle": "^2.14",
                     "doctrine/orm": "^3.3",
-                    "os-downtime/extended-php": "^0.0.1",
+                    "os-downtime/extended-php": "dev-main",
                     "symfony/config": "^7.2",
                     "symfony/dependency-injection": "^7.2",
-                    "symfony/http-kernel": "^7.2",
-                    "symfony/serializer": "^7.2"
+                    "symfony/http-kernel": "^7.2"
                 },
-                "time": "2025-04-13T10:24:20+00:00",
+                "require-dev": {
+                    "phpecs/phpecs": "^2.1",
+                    "phpunit/phpunit": "^12.1",
+                    "symfony/property-access": "^7.2",
+                    "symfony/serializer": "^7.2",
+                    "symplify/coding-standard": "^12.3"
+                },
+                "time": "2025-04-18T12:45:12+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\DocumentStorage\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\DocumentStorage\\Tests\\": "tests/"
                     }
                 },
                 "license": [

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/document-storage.git",
-                    "reference": "8a97d2ec7a12fd192c9711c71c7197e78be628a2"
+                    "reference": "528bc9ad0a9ae0b05e06450b91615b39288b9cfb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/document-storage/zipball/8a97d2ec7a12fd192c9711c71c7197e78be628a2",
-                    "reference": "8a97d2ec7a12fd192c9711c71c7197e78be628a2",
+                    "url": "https://api.github.com/repos/os-downtime/document-storage/zipball/528bc9ad0a9ae0b05e06450b91615b39288b9cfb",
+                    "reference": "528bc9ad0a9ae0b05e06450b91615b39288b9cfb",
                     "shasum": ""
                 },
                 "require": {
@@ -32,7 +32,7 @@
                     "symfony/serializer": "^7.2",
                     "symplify/coding-standard": "^12.3"
                 },
-                "time": "2025-04-18T12:45:12+00:00",
+                "time": "2025-05-02T07:34:41+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

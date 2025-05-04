@@ -3,25 +3,88 @@
         "os-downtime/messaging": [
             {
                 "name": "os-downtime/messaging",
+                "version": "dev-bootstrap",
+                "version_normalized": "dev-bootstrap",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/messaging.git",
+                    "reference": "2b3ad85cbbd6b830ca679e50ad468cde8331e579"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/2b3ad85cbbd6b830ca679e50ad468cde8331e579",
+                    "reference": "2b3ad85cbbd6b830ca679e50ad468cde8331e579",
+                    "shasum": ""
+                },
+                "require": {
+                    "os-downtime/common": "dev-main",
+                    "os-downtime/document-storage": "dev-main",
+                    "os-downtime/extended-php": "dev-main",
+                    "symfony/config": "^7.2",
+                    "symfony/dependency-injection": "^7.2",
+                    "symfony/dotenv": "^7.2",
+                    "symfony/http-kernel": "^7.2"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.75",
+                    "phpunit/phpunit": "^12.1"
+                },
+                "time": "2025-05-02T08:07:11+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\Messaging\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\Messaging\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "Messaging for applications based on the os-downtime/common package",
+                "support": {
+                    "source": "https://github.com/os-downtime/messaging/tree/bootstrap",
+                    "issues": "https://github.com/os-downtime/messaging/issues"
+                }
+            },
+            {
+                "name": "os-downtime/messaging",
                 "version": "dev-main",
                 "version_normalized": "dev-main",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/messaging.git",
-                    "reference": "c3dc39d75b283f553e6950badb1f74ccac6bac7d"
+                    "reference": "9104487e935c7423dee86ca333fcd3136e4655f7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/c3dc39d75b283f553e6950badb1f74ccac6bac7d",
-                    "reference": "c3dc39d75b283f553e6950badb1f74ccac6bac7d",
+                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/9104487e935c7423dee86ca333fcd3136e4655f7",
+                    "reference": "9104487e935c7423dee86ca333fcd3136e4655f7",
                     "shasum": ""
                 },
                 "require": {
+                    "os-downtime/common": "dev-main",
+                    "os-downtime/document-storage": "dev-main",
+                    "os-downtime/extended-php": "dev-main",
                     "symfony/config": "^7.2",
                     "symfony/dependency-injection": "^7.2",
+                    "symfony/dotenv": "^7.2",
                     "symfony/http-kernel": "^7.2"
                 },
-                "time": "2025-04-13T08:21:19+00:00",
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.75",
+                    "phpunit/phpunit": "^12.1"
+                },
+                "time": "2025-05-04T08:02:50+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -43,7 +106,7 @@
                         "email": "osonlineinbox@gmail.com"
                     }
                 ],
-                "description": "Messaging for applications based on the \"Common\" package",
+                "description": "Messaging for applications based on the os-downtime/common package",
                 "support": {
                     "source": "https://github.com/os-downtime/messaging/tree/main",
                     "issues": "https://github.com/os-downtime/messaging/issues"

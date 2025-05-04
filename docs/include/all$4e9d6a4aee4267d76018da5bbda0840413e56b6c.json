@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/common.git",
-                    "reference": "ada43a0ced28287c533727a8e8f0a8301ec8e531"
+                    "reference": "448db56ee1eee59fd13efa2b696fe9aa38f7684d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/common/zipball/ada43a0ced28287c533727a8e8f0a8301ec8e531",
-                    "reference": "ada43a0ced28287c533727a8e8f0a8301ec8e531",
+                    "url": "https://api.github.com/repos/os-downtime/common/zipball/448db56ee1eee59fd13efa2b696fe9aa38f7684d",
+                    "reference": "448db56ee1eee59fd13efa2b696fe9aa38f7684d",
                     "shasum": ""
                 },
                 "require": {
                     "os-downtime/extended-php": "dev-main"
                 },
-                "time": "2025-04-18T13:22:57+00:00",
+                "time": "2025-05-04T09:50:25+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

@@ -244,12 +244,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/messaging.git",
-                    "reference": "9104487e935c7423dee86ca333fcd3136e4655f7"
+                    "reference": "95622a7d199f3f602adcfa731422f8dd36187490"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/9104487e935c7423dee86ca333fcd3136e4655f7",
-                    "reference": "9104487e935c7423dee86ca333fcd3136e4655f7",
+                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/95622a7d199f3f602adcfa731422f8dd36187490",
+                    "reference": "95622a7d199f3f602adcfa731422f8dd36187490",
                     "shasum": ""
                 },
                 "require": {
@@ -265,7 +265,7 @@
                     "friendsofphp/php-cs-fixer": "^3.75",
                     "phpunit/phpunit": "^12.1"
                 },
-                "time": "2025-05-04T08:02:50+00:00",
+                "time": "2025-05-24T08:32:35+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

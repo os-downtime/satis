@@ -8,23 +8,33 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/common.git",
-                    "reference": "bbeca555fcda4fbe08e383281fcd91467a3123ad"
+                    "reference": "63d28efdad1675041d9a206454c32ac9e1eb6e8f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/common/zipball/bbeca555fcda4fbe08e383281fcd91467a3123ad",
-                    "reference": "bbeca555fcda4fbe08e383281fcd91467a3123ad",
+                    "url": "https://api.github.com/repos/os-downtime/common/zipball/63d28efdad1675041d9a206454c32ac9e1eb6e8f",
+                    "reference": "63d28efdad1675041d9a206454c32ac9e1eb6e8f",
                     "shasum": ""
                 },
                 "require": {
-                    "os-downtime/extended-php": "dev-main"
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.4"
                 },
-                "time": "2025-05-04T10:11:04+00:00",
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.75",
+                    "phpunit/phpunit": "^12.2"
+                },
+                "time": "2025-06-19T11:12:26+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\Common\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\Common\\Tests\\": "tests/"
                     }
                 },
                 "license": [

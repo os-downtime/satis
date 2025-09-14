@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/common.git",
-                    "reference": "63d28efdad1675041d9a206454c32ac9e1eb6e8f"
+                    "reference": "2d557693749bc44e73c09b50856c68afd92ab256"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/common/zipball/63d28efdad1675041d9a206454c32ac9e1eb6e8f",
-                    "reference": "63d28efdad1675041d9a206454c32ac9e1eb6e8f",
+                    "url": "https://api.github.com/repos/os-downtime/common/zipball/2d557693749bc44e73c09b50856c68afd92ab256",
+                    "reference": "2d557693749bc44e73c09b50856c68afd92ab256",
                     "shasum": ""
                 },
                 "require": {
@@ -22,9 +22,9 @@
                 },
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "^3.75",
-                    "phpunit/phpunit": "^12.2"
+                    "phpunit/phpunit": "^12.3"
                 },
-                "time": "2025-06-19T11:12:26+00:00",
+                "time": "2025-09-14T14:51:42+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

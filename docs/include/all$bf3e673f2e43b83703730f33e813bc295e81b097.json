@@ -159,20 +159,30 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/extended-php.git",
-                    "reference": "7c5fb8f4fc5d5b2a3ab25d37cc7e342903fcd4ae"
+                    "reference": "0af588f2b18aa346ccf201d1ae2e7e405e75d0b2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/7c5fb8f4fc5d5b2a3ab25d37cc7e342903fcd4ae",
-                    "reference": "7c5fb8f4fc5d5b2a3ab25d37cc7e342903fcd4ae",
+                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/0af588f2b18aa346ccf201d1ae2e7e405e75d0b2",
+                    "reference": "0af588f2b18aa346ccf201d1ae2e7e405e75d0b2",
                     "shasum": ""
                 },
-                "time": "2025-04-18T13:24:03+00:00",
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3"
+                },
+                "time": "2025-09-27T09:25:11+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\ExtendedPhp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\ExtendedPhp\\Tests\\": "tests/"
                     }
                 },
                 "license": [

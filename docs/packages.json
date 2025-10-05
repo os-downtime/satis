@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$fd3ef04b7842ca5b9559e821459e06261f469407.json": {
-            "sha1": "fd3ef04b7842ca5b9559e821459e06261f469407"
+        "include/all$3098ca11b8c4c44ade3d644b337cb9e3eae43ec9.json": {
+            "sha1": "3098ca11b8c4c44ade3d644b337cb9e3eae43ec9"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
@@ -10,6 +10,7 @@
         "os-downtime/common",
         "os-downtime/document-storage",
         "os-downtime/extended-php",
+        "os-downtime/hosted-service",
         "os-downtime/messaging"
     ]
 }

@@ -21,6 +21,11 @@
             "name": "os-downtime/messaging",
             "type": "vcs",
             "url": "https://github.com/os-downtime/messaging"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/hosted-service",
+            "name": "os-downtime/hosted-service"
         }
     ],
     "require-all": true,

@@ -1,0 +1,31 @@
+name: Add Package
+on:
+  workflow_dispatch:
+    inputs:
+      package_url:
+        type: string
+        description: Package URL
+      package_name:
+        type: string
+        description: Package Name
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jmbarne3/satis-add-package@v1
+        with:
+          token: ${{ secrets.BOT_SATIS_TOKEN }}
+          package_url: ${{ inputs.package_url }}
+          package_name: ${{ inputs.package_name }}
+      - env:
+          GIT_EMAIL: os-downtime-bot@googlegroups.com
+          GIT_NAME: os-downtime-bot
+        run: |
+          git config user.name $GIT_NAME
+          git config user.email $GIT_EMAIL
+          git add docs/
+          git add satis.json
+          git commit -m "Added $ to repository."
+          git push

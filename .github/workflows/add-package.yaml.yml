@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: jmbarne3/satis-add-package@v1
         with:
-          token: ${{ secrets.BOT_SATIS_TOKEN }}
+          token: ${{ secrets.OTHER_TOKEN }}
           package_url: ${{ inputs.package_url }}
           package_name: ${{ inputs.package_name }}
       - env:

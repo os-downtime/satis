@@ -1,5 +1,8 @@
 # Satis
 
+Note that the token for automatic updates is defined as a Personal Access Token in the https://github.com/orgs/os-downtime/people/os-downtime-bot account 
+(email: os-downtime-bot@googlegroups.com, password: in ProtonPass). 
+
 A simple static Composer repository generator.
 
 ## About

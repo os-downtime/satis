@@ -210,25 +210,30 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/hosted-service.git",
-                    "reference": "6fa2667e87adc6568bf102ccead49283c7591c36"
+                    "reference": "6546987b95182adcc5ddfb256a2e5d9198afc1d9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/hosted-service/zipball/6fa2667e87adc6568bf102ccead49283c7591c36",
-                    "reference": "6fa2667e87adc6568bf102ccead49283c7591c36",
+                    "url": "https://api.github.com/repos/os-downtime/hosted-service/zipball/6546987b95182adcc5ddfb256a2e5d9198afc1d9",
+                    "reference": "6546987b95182adcc5ddfb256a2e5d9198afc1d9",
                     "shasum": ""
                 },
                 "require": {
+                    "ext-pcntl": "*",
+                    "ext-sysvmsg": "*",
+                    "opis/closure": "^4.3",
                     "os-downtime/extended-php": "dev-main",
                     "php": "^8.4",
-                    "psr/container": "^2.0"
+                    "psr/container": "^2.0",
+                    "symfony/dependency-injection": "^7.3",
+                    "symfony/process": "^7.3"
                 },
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "^3.88",
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.3"
                 },
-                "time": "2025-10-14T11:02:56+00:00",
+                "time": "2025-11-01T15:17:30+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -238,7 +243,8 @@
                 },
                 "autoload-dev": {
                     "psr-4": {
-                        "OsDownTime\\HostedService\\Tests\\": "tests/"
+                        "OsDownTime\\HostedService\\Tests\\": "tests/",
+                        "OsDownTime\\HostedService\\App\\": "app/"
                     }
                 },
                 "license": [

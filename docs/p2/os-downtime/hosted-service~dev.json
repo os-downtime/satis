@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/hosted-service.git",
-                    "reference": "88b8b6d6f47e04d081b1f0f7f90468f1370d9b45"
+                    "reference": "8824d26fd57edab24cf4c56bfbaca6a268bc8cca"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/hosted-service/zipball/88b8b6d6f47e04d081b1f0f7f90468f1370d9b45",
-                    "reference": "88b8b6d6f47e04d081b1f0f7f90468f1370d9b45",
+                    "url": "https://api.github.com/repos/os-downtime/hosted-service/zipball/8824d26fd57edab24cf4c56bfbaca6a268bc8cca",
+                    "reference": "8824d26fd57edab24cf4c56bfbaca6a268bc8cca",
                     "shasum": ""
                 },
                 "require": {
@@ -25,6 +25,7 @@
                     "os-downtime/extended-php": "dev-main",
                     "php": "^8.4",
                     "psr/container": "^2.0",
+                    "symfony/config": "^7.3",
                     "symfony/dependency-injection": "^7.3",
                     "symfony/process": "^7.3"
                 },
@@ -33,7 +34,7 @@
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.3"
                 },
-                "time": "2025-11-08T12:49:31+00:00",
+                "time": "2025-11-17T17:30:14+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

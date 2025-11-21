@@ -26,6 +26,11 @@
             "type": "vcs",
             "url": "https://github.com/os-downtime/hosted-service",
             "name": "os-downtime/hosted-service"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/ipc-array",
+            "name": "ipc-array"
         }
     ],
     "require-all": true,

@@ -267,6 +267,63 @@
                 }
             }
         },
+        "os-downtime/ipc-array": {
+            "dev-main": {
+                "name": "os-downtime/ipc-array",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/ipc-array.git",
+                    "reference": "8a891873b176c99b151fa4e6d8b062a815d82772"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/ipc-array/zipball/8a891873b176c99b151fa4e6d8b062a815d82772",
+                    "reference": "8a891873b176c99b151fa4e6d8b062a815d82772",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-sysvsem": "*",
+                    "ext-sysvshm": "*",
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3",
+                    "symfony/process": "^7.3"
+                },
+                "time": "2025-11-21T14:59:17+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\IPCArray\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\IPCArray\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "An array-like object for inter-process communication using System V shared memory",
+                "support": {
+                    "source": "https://github.com/os-downtime/ipc-array/tree/main",
+                    "issues": "https://github.com/os-downtime/ipc-array/issues"
+                }
+            }
+        },
         "os-downtime/messaging": {
             "dev-main": {
                 "name": "os-downtime/messaging",

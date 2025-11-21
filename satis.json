@@ -30,7 +30,7 @@
         {
             "type": "vcs",
             "url": "https://github.com/os-downtime/ipc-array",
-            "name": "ipc-array"
+            "name": "os-downtime/ipc-array"
         }
     ],
     "require-all": true,

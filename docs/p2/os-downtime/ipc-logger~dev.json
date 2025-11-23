@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/ipc-logger.git",
-                    "reference": "115c0dc0e9873bbeacd43e72212101440951758f"
+                    "reference": "43f949a7cb83b17d27833271ce1125c3d52ebaef"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/ipc-logger/zipball/115c0dc0e9873bbeacd43e72212101440951758f",
-                    "reference": "115c0dc0e9873bbeacd43e72212101440951758f",
+                    "url": "https://api.github.com/repos/os-downtime/ipc-logger/zipball/43f949a7cb83b17d27833271ce1125c3d52ebaef",
+                    "reference": "43f949a7cb83b17d27833271ce1125c3d52ebaef",
                     "shasum": ""
                 },
                 "require": {
@@ -30,7 +30,7 @@
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.3"
                 },
-                "time": "2025-11-21T17:20:07+00:00",
+                "time": "2025-11-23T13:23:32+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

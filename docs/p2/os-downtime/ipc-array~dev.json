@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/ipc-array.git",
-                    "reference": "8a891873b176c99b151fa4e6d8b062a815d82772"
+                    "reference": "db6b52ad6c97d73e693a061fa9888717ccc936a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/ipc-array/zipball/8a891873b176c99b151fa4e6d8b062a815d82772",
-                    "reference": "8a891873b176c99b151fa4e6d8b062a815d82772",
+                    "url": "https://api.github.com/repos/os-downtime/ipc-array/zipball/db6b52ad6c97d73e693a061fa9888717ccc936a2",
+                    "reference": "db6b52ad6c97d73e693a061fa9888717ccc936a2",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "phpunit/phpunit": "^12.3",
                     "symfony/process": "^7.3"
                 },
-                "time": "2025-11-21T14:59:17+00:00",
+                "time": "2025-11-27T07:12:47+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

@@ -52,7 +52,7 @@
                 ],
                 "description": "An array-like object for inter-process communication using System V shared memory",
                 "support": {
-                    "source": "https://github.com/os-downtime/ipc-array/tree/v0.1.0",
+                    "source": "https://github.com/os-downtime/ipc-array/tree/main",
                     "issues": "https://github.com/os-downtime/ipc-array/issues"
                 }
             }

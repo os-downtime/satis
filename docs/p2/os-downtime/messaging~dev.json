@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/messaging.git",
-                    "reference": "7b3e31ef2b415d6cd51d20e4587558a337e61dc9"
+                    "reference": "bb49235620e927d45c04e2c0db5f6e271936bc89"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/7b3e31ef2b415d6cd51d20e4587558a337e61dc9",
-                    "reference": "7b3e31ef2b415d6cd51d20e4587558a337e61dc9",
+                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/bb49235620e927d45c04e2c0db5f6e271936bc89",
+                    "reference": "bb49235620e927d45c04e2c0db5f6e271936bc89",
                     "shasum": ""
                 },
                 "require": {
@@ -35,7 +35,7 @@
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.1"
                 },
-                "time": "2025-12-10T13:59:47+00:00",
+                "time": "2025-12-11T17:00:54+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

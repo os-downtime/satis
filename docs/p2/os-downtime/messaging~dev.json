@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/messaging.git",
-                    "reference": "bb49235620e927d45c04e2c0db5f6e271936bc89"
+                    "reference": "1edb4a4c79565fd27f0c63ca7d0c4ea95f0bc41d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/bb49235620e927d45c04e2c0db5f6e271936bc89",
-                    "reference": "bb49235620e927d45c04e2c0db5f6e271936bc89",
+                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/1edb4a4c79565fd27f0c63ca7d0c4ea95f0bc41d",
+                    "reference": "1edb4a4c79565fd27f0c63ca7d0c4ea95f0bc41d",
                     "shasum": ""
                 },
                 "require": {
@@ -22,7 +22,6 @@
                     "os-downtime/extended-php": "dev-main",
                     "os-downtime/hosted-service": "dev-main",
                     "os-downtime/ipc-array": "^0.2",
-                    "os-downtime/ipc-logger": "dev-main",
                     "php": "^8.4",
                     "symfony/config": "^7.2",
                     "symfony/dependency-injection": "^7.3",
@@ -35,7 +34,7 @@
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.1"
                 },
-                "time": "2025-12-11T17:00:54+00:00",
+                "time": "2025-12-13T12:15:44+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

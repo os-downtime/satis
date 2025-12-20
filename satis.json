@@ -36,6 +36,11 @@
             "type": "vcs",
             "url": "https://github.com/os-downtime/ipc-logger",
             "name": "os-downtime/ipc-logger"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/dbal-utils",
+            "name": "os-downtime/dbal-utils"
         }
     ],
     "require-all": true,

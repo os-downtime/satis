@@ -8,15 +8,16 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/messaging.git",
-                    "reference": "1edb4a4c79565fd27f0c63ca7d0c4ea95f0bc41d"
+                    "reference": "1ba4ed5444edffcfbe31c1f9f4e0577b959301d4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/1edb4a4c79565fd27f0c63ca7d0c4ea95f0bc41d",
-                    "reference": "1edb4a4c79565fd27f0c63ca7d0c4ea95f0bc41d",
+                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/1ba4ed5444edffcfbe31c1f9f4e0577b959301d4",
+                    "reference": "1ba4ed5444edffcfbe31c1f9f4e0577b959301d4",
                     "shasum": ""
                 },
                 "require": {
+                    "doctrine/dbal": "^4.4",
                     "os-downtime/common": "dev-main",
                     "os-downtime/document-storage": "dev-main",
                     "os-downtime/extended-php": "dev-main",
@@ -31,10 +32,13 @@
                 },
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "^3.75",
+                    "os-downtime/data-bag": "^1.0",
+                    "os-downtime/dbal-data-bag": "^0.2.0",
+                    "os-downtime/dbal-utils": "dev-main",
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.1"
                 },
-                "time": "2025-12-13T12:15:44+00:00",
+                "time": "2025-12-21T15:15:58+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

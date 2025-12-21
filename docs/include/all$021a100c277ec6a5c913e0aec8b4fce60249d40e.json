@@ -221,12 +221,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/dbal-data-bag.git",
-                    "reference": "410aa8c319760c22bfc600dbd4683083f060b509"
+                    "reference": "a77ffa90a8acc3649bb2abb4edac46b2e01c0588"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/dbal-data-bag/zipball/410aa8c319760c22bfc600dbd4683083f060b509",
-                    "reference": "410aa8c319760c22bfc600dbd4683083f060b509",
+                    "url": "https://api.github.com/repos/os-downtime/dbal-data-bag/zipball/a77ffa90a8acc3649bb2abb4edac46b2e01c0588",
+                    "reference": "a77ffa90a8acc3649bb2abb4edac46b2e01c0588",
                     "shasum": ""
                 },
                 "require": {
@@ -241,7 +241,7 @@
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.3"
                 },
-                "time": "2025-12-21T13:24:24+00:00",
+                "time": "2025-12-21T14:50:54+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -265,7 +265,61 @@
                 ],
                 "description": "TBD",
                 "support": {
-                    "source": "https://github.com/os-downtime/dbal-data-bag/tree/0.1.0",
+                    "source": "https://github.com/os-downtime/dbal-data-bag/tree/main",
+                    "issues": "https://github.com/os-downtime/dbal-data-bag/issues"
+                }
+            },
+            "dev-postgres-support": {
+                "name": "os-downtime/dbal-data-bag",
+                "version": "dev-postgres-support",
+                "version_normalized": "dev-postgres-support",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/dbal-data-bag.git",
+                    "reference": "680d4e59efef60c08e7e3329edf0d0f50a67ec5f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/dbal-data-bag/zipball/680d4e59efef60c08e7e3329edf0d0f50a67ec5f",
+                    "reference": "680d4e59efef60c08e7e3329edf0d0f50a67ec5f",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "^4.4",
+                    "os-downtime/data-bag": "^1.0",
+                    "os-downtime/dbal-utils": "dev-main",
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3"
+                },
+                "time": "2025-12-21T14:50:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\DbalDataBag\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\DbalDataBag\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "TBD",
+                "support": {
+                    "source": "https://github.com/os-downtime/dbal-data-bag/tree/postgres-support",
                     "issues": "https://github.com/os-downtime/dbal-data-bag/issues"
                 }
             }

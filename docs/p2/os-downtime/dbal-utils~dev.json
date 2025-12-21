@@ -50,7 +50,7 @@
                 ],
                 "description": "TBD",
                 "support": {
-                    "source": "https://github.com/os-downtime/dbal-utils/tree/main",
+                    "source": "https://github.com/os-downtime/dbal-utils/tree/0.1.0",
                     "issues": "https://github.com/os-downtime/dbal-utils/issues"
                 }
             }

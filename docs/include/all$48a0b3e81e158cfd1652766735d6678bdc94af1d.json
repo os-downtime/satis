@@ -160,6 +160,58 @@
             }
         },
         "os-downtime/dbal-utils": {
+            "0.1.0": {
+                "name": "os-downtime/dbal-utils",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/dbal-utils.git",
+                    "reference": "397cde3ddf237b382d270583825eaff87760f132"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/dbal-utils/zipball/397cde3ddf237b382d270583825eaff87760f132",
+                    "reference": "397cde3ddf237b382d270583825eaff87760f132",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "^4.4",
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3"
+                },
+                "time": "2025-12-21T12:47:12+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\DbalUtils\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\DbalUtils\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "TBD",
+                "support": {
+                    "source": "https://github.com/os-downtime/dbal-utils/tree/0.1.0",
+                    "issues": "https://github.com/os-downtime/dbal-utils/issues"
+                }
+            },
             "dev-main": {
                 "name": "os-downtime/dbal-utils",
                 "version": "dev-main",
@@ -209,7 +261,7 @@
                 ],
                 "description": "TBD",
                 "support": {
-                    "source": "https://github.com/os-downtime/dbal-utils/tree/main",
+                    "source": "https://github.com/os-downtime/dbal-utils/tree/0.1.0",
                     "issues": "https://github.com/os-downtime/dbal-utils/issues"
                 }
             }

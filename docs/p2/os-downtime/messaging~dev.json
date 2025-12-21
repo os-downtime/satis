@@ -8,17 +8,20 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/messaging.git",
-                    "reference": "1ba4ed5444edffcfbe31c1f9f4e0577b959301d4"
+                    "reference": "f9d5e9ab98972d8749c52b7d6e685dedb1bab74a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/1ba4ed5444edffcfbe31c1f9f4e0577b959301d4",
-                    "reference": "1ba4ed5444edffcfbe31c1f9f4e0577b959301d4",
+                    "url": "https://api.github.com/repos/os-downtime/messaging/zipball/f9d5e9ab98972d8749c52b7d6e685dedb1bab74a",
+                    "reference": "f9d5e9ab98972d8749c52b7d6e685dedb1bab74a",
                     "shasum": ""
                 },
                 "require": {
                     "doctrine/dbal": "^4.4",
                     "os-downtime/common": "dev-main",
+                    "os-downtime/data-bag": "^1.0",
+                    "os-downtime/dbal-data-bag": "^0.2.0",
+                    "os-downtime/dbal-utils": "dev-main",
                     "os-downtime/document-storage": "dev-main",
                     "os-downtime/extended-php": "dev-main",
                     "os-downtime/hosted-service": "dev-main",
@@ -32,13 +35,10 @@
                 },
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "^3.75",
-                    "os-downtime/data-bag": "^1.0",
-                    "os-downtime/dbal-data-bag": "^0.2.0",
-                    "os-downtime/dbal-utils": "dev-main",
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.1"
                 },
-                "time": "2025-12-21T15:15:58+00:00",
+                "time": "2025-12-21T15:32:00+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

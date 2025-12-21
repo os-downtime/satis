@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/extended-php.git",
-                    "reference": "0af588f2b18aa346ccf201d1ae2e7e405e75d0b2"
+                    "reference": "513ff19a68cc08f649acff57ec154f8b818ccb8d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/0af588f2b18aa346ccf201d1ae2e7e405e75d0b2",
-                    "reference": "0af588f2b18aa346ccf201d1ae2e7e405e75d0b2",
+                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/513ff19a68cc08f649acff57ec154f8b818ccb8d",
+                    "reference": "513ff19a68cc08f649acff57ec154f8b818ccb8d",
                     "shasum": ""
                 },
                 "require-dev": {
@@ -21,7 +21,7 @@
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.3"
                 },
-                "time": "2025-09-27T09:25:11+00:00",
+                "time": "2025-12-21T13:42:24+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

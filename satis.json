@@ -46,6 +46,11 @@
             "type": "vcs",
             "url": "https://github.com/os-downtime/data-bag",
             "name": "os-downtime/data-bag"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/dbal-data-bag",
+            "name": "os-downtime/dbal-data-bag"
         }
     ],
     "require-all": true,

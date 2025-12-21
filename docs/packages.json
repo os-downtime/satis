@@ -1,14 +1,15 @@
 {
     "packages": [],
     "includes": {
-        "include/all$48a0b3e81e158cfd1652766735d6678bdc94af1d.json": {
-            "sha1": "48a0b3e81e158cfd1652766735d6678bdc94af1d"
+        "include/all$99c47c776d2034a8a1a85799f7fe5387713edd7f.json": {
+            "sha1": "99c47c776d2034a8a1a85799f7fe5387713edd7f"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
     "available-packages": [
         "os-downtime/common",
         "os-downtime/data-bag",
+        "os-downtime/dbal-data-bag",
         "os-downtime/dbal-utils",
         "os-downtime/document-storage",
         "os-downtime/extended-php",

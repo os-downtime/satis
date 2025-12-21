@@ -45,7 +45,7 @@
                 ],
                 "description": "Extra features to be considered as part of the language",
                 "support": {
-                    "source": "https://github.com/os-downtime/extended-php/tree/main",
+                    "source": "https://github.com/os-downtime/extended-php/tree/0.1.0",
                     "issues": "https://github.com/os-downtime/extended-php/issues"
                 }
             }

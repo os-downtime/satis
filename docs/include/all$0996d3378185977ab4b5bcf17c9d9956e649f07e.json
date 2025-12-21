@@ -476,6 +476,53 @@
                     "issues": "https://github.com/os-downtime/extended-php/issues"
                 }
             },
+            "0.1.0": {
+                "name": "os-downtime/extended-php",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/extended-php.git",
+                    "reference": "513ff19a68cc08f649acff57ec154f8b818ccb8d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/extended-php/zipball/513ff19a68cc08f649acff57ec154f8b818ccb8d",
+                    "reference": "513ff19a68cc08f649acff57ec154f8b818ccb8d",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3"
+                },
+                "time": "2025-12-21T13:42:24+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\ExtendedPhp\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\ExtendedPhp\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "Extra features to be considered as part of the language",
+                "support": {
+                    "source": "https://github.com/os-downtime/extended-php/tree/0.1.0",
+                    "issues": "https://github.com/os-downtime/extended-php/issues"
+                }
+            },
             "dev-main": {
                 "name": "os-downtime/extended-php",
                 "version": "dev-main",
@@ -520,7 +567,7 @@
                 ],
                 "description": "Extra features to be considered as part of the language",
                 "support": {
-                    "source": "https://github.com/os-downtime/extended-php/tree/main",
+                    "source": "https://github.com/os-downtime/extended-php/tree/0.1.0",
                     "issues": "https://github.com/os-downtime/extended-php/issues"
                 }
             }

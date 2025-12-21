@@ -54,6 +54,60 @@
                     "source": "https://github.com/os-downtime/dbal-data-bag/tree/0.1.0",
                     "issues": "https://github.com/os-downtime/dbal-data-bag/issues"
                 }
+            },
+            {
+                "name": "os-downtime/dbal-data-bag",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/dbal-data-bag.git",
+                    "reference": "a77ffa90a8acc3649bb2abb4edac46b2e01c0588"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/dbal-data-bag/zipball/a77ffa90a8acc3649bb2abb4edac46b2e01c0588",
+                    "reference": "a77ffa90a8acc3649bb2abb4edac46b2e01c0588",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "^4.4",
+                    "os-downtime/data-bag": "^1.0",
+                    "os-downtime/dbal-utils": "dev-main",
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3"
+                },
+                "time": "2025-12-21T14:50:54+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\DbalDataBag\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\DbalDataBag\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "TBD",
+                "support": {
+                    "source": "https://github.com/os-downtime/dbal-data-bag/tree/0.2.0",
+                    "issues": "https://github.com/os-downtime/dbal-data-bag/issues"
+                }
             }
         ]
     }

@@ -52,7 +52,7 @@
                 ],
                 "description": "TBD",
                 "support": {
-                    "source": "https://github.com/os-downtime/dbal-data-bag/tree/main",
+                    "source": "https://github.com/os-downtime/dbal-data-bag/tree/0.2.0",
                     "issues": "https://github.com/os-downtime/dbal-data-bag/issues"
                 }
             },

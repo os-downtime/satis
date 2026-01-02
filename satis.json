@@ -51,6 +51,11 @@
             "type": "vcs",
             "url": "https://github.com/os-downtime/dbal-data-bag",
             "name": "os-downtime/dbal-data-bag"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/process-conductor-sandbox",
+            "name": "os-downtime/process-conductor-sandbox"
         }
     ],
     "require-all": true,

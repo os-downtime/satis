@@ -1102,6 +1102,68 @@
                 }
             }
         },
+        "os-downtime/process-conductor": {
+            "dev-main": {
+                "name": "os-downtime/process-conductor",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/process-conductor.git",
+                    "reference": "32d0e0cf30e2d6849c02adaf606074426ff4f22c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/process-conductor/zipball/32d0e0cf30e2d6849c02adaf606074426ff4f22c",
+                    "reference": "32d0e0cf30e2d6849c02adaf606074426ff4f22c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-runtime-api": "^2.2.2",
+                    "ext-pcntl": "*",
+                    "ext-posix": "*",
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.4",
+                    "symfony/dependency-injection": "^8.0",
+                    "symfony/process": "^8.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3"
+                },
+                "time": "2026-01-05T11:06:32+00:00",
+                "default-branch": true,
+                "bin": [
+                    "src/Spawn/spawn-conductor-worker.php"
+                ],
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\ProcessConductor\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\ProcessConductor\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "TBD",
+                "support": {
+                    "source": "https://github.com/os-downtime/process-conductor/tree/main",
+                    "issues": "https://github.com/os-downtime/process-conductor/issues"
+                }
+            }
+        },
         "os-downtime/process-conductor-sandbox": {
             "dev-main": {
                 "name": "os-downtime/process-conductor-sandbox",

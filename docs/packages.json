@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$ce8dd91e00aaf941b5f3efa2203ebca6bcea686a.json": {
-            "sha1": "ce8dd91e00aaf941b5f3efa2203ebca6bcea686a"
+        "include/all$cbb318fa02a49c9f71db6f679bab36ee513c0231.json": {
+            "sha1": "cbb318fa02a49c9f71db6f679bab36ee513c0231"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
@@ -17,6 +17,7 @@
         "os-downtime/ipc-array",
         "os-downtime/ipc-logger",
         "os-downtime/messaging",
+        "os-downtime/process-conductor",
         "os-downtime/process-conductor-sandbox"
     ]
 }

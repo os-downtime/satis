@@ -56,6 +56,11 @@
             "type": "vcs",
             "url": "https://github.com/os-downtime/process-conductor-sandbox",
             "name": "os-downtime/process-conductor-sandbox"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/process-conductor",
+            "name": "os-downtime/process-conductor"
         }
     ],
     "require-all": true,

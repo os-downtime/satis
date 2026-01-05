@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$29836e9bdc3adf3f32bff00d4726722744b137bc.json": {
-            "sha1": "29836e9bdc3adf3f32bff00d4726722744b137bc"
+        "include/all$cc989161f05378153b4ac77403cfda982493d6aa.json": {
+            "sha1": "cc989161f05378153b4ac77403cfda982493d6aa"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
@@ -15,9 +15,7 @@
         "os-downtime/extended-php",
         "os-downtime/hosted-service",
         "os-downtime/ipc-array",
-        "os-downtime/ipc-logger",
         "os-downtime/messaging",
-        "os-downtime/process-conductor",
-        "os-downtime/process-conductor-sandbox"
+        "os-downtime/process-conductor"
     ]
 }

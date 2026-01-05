@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/ipc-array.git",
-                    "reference": "a0878541c1be9bd6a4e4a1141c6ca730e41563ce"
+                    "reference": "49ae95066e39f8d9f3219ec80f0bdbe16c8ab6c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/ipc-array/zipball/a0878541c1be9bd6a4e4a1141c6ca730e41563ce",
-                    "reference": "a0878541c1be9bd6a4e4a1141c6ca730e41563ce",
+                    "url": "https://api.github.com/repos/os-downtime/ipc-array/zipball/49ae95066e39f8d9f3219ec80f0bdbe16c8ab6c7",
+                    "reference": "49ae95066e39f8d9f3219ec80f0bdbe16c8ab6c7",
                     "shasum": ""
                 },
                 "require": {
@@ -28,7 +28,7 @@
                     "phpunit/phpunit": "^12.3",
                     "symfony/process": "^7.3"
                 },
-                "time": "2025-12-01T19:29:42+00:00",
+                "time": "2026-01-05T11:14:40+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -52,7 +52,7 @@
                 ],
                 "description": "An array-like object for inter-process communication using System V shared memory",
                 "support": {
-                    "source": "https://github.com/os-downtime/ipc-array/tree/0.2.0",
+                    "source": "https://github.com/os-downtime/ipc-array/tree/main",
                     "issues": "https://github.com/os-downtime/ipc-array/issues"
                 }
             }

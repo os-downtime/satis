@@ -1,13 +1,14 @@
 {
     "packages": [],
     "includes": {
-        "include/all$cc989161f05378153b4ac77403cfda982493d6aa.json": {
-            "sha1": "cc989161f05378153b4ac77403cfda982493d6aa"
+        "include/all$861709090669cdd70af208d30512636c196cf2f8.json": {
+            "sha1": "861709090669cdd70af208d30512636c196cf2f8"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
     "available-packages": [
         "os-downtime/common",
+        "os-downtime/console-host",
         "os-downtime/data-bag",
         "os-downtime/dbal-data-bag",
         "os-downtime/dbal-utils",

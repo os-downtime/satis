@@ -51,6 +51,11 @@
             "type": "vcs",
             "url": "https://github.com/os-downtime/process-conductor",
             "name": "os-downtime/process-conductor"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/console-host",
+            "name": "os-downtime/console-host"
         }
     ],
     "require-all": true,

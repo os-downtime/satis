@@ -62,12 +62,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/console-host.git",
-                    "reference": "d9cd947f0dbb81a7a0d75410891d4f280e596123"
+                    "reference": "fd2502b46ba98c62ff365c73939ccb45a8132451"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/d9cd947f0dbb81a7a0d75410891d4f280e596123",
-                    "reference": "d9cd947f0dbb81a7a0d75410891d4f280e596123",
+                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/fd2502b46ba98c62ff365c73939ccb45a8132451",
+                    "reference": "fd2502b46ba98c62ff365c73939ccb45a8132451",
                     "shasum": ""
                 },
                 "require": {
@@ -83,7 +83,7 @@
                     "phpunit/phpunit": "^12.3",
                     "symfony/process": "^8.0"
                 },
-                "time": "2026-02-06T16:28:45+00:00",
+                "time": "2026-02-06T17:30:06+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -111,64 +111,6 @@
                 "description": "TBD",
                 "support": {
                     "source": "https://github.com/os-downtime/console-host/tree/main",
-                    "issues": "https://github.com/os-downtime/console-host/issues"
-                }
-            },
-            "dev-semantic-revamp": {
-                "name": "os-downtime/console-host",
-                "version": "dev-semantic-revamp",
-                "version_normalized": "dev-semantic-revamp",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:os-downtime/console-host.git",
-                    "reference": "f2f1490a07e02c3c8018897334f39bdc09bae011"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/f2f1490a07e02c3c8018897334f39bdc09bae011",
-                    "reference": "f2f1490a07e02c3c8018897334f39bdc09bae011",
-                    "shasum": ""
-                },
-                "require": {
-                    "os-downtime/extended-php": "dev-main",
-                    "php": "^8.4",
-                    "symfony/config": "^8.0",
-                    "symfony/console": "^8.0",
-                    "symfony/dependency-injection": "^8.0"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.88",
-                    "phpstan/phpstan": "^2.1",
-                    "phpunit/phpunit": "^12.3",
-                    "symfony/process": "^8.0"
-                },
-                "time": "2026-02-06T16:23:52+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "OsDownTime\\ConsoleHost\\": "src/",
-                        "OsDownTime\\ClientApps\\Alpha\\": "client-apps/alpha/src/",
-                        "OsDownTime\\ClientApps\\Beta\\": "client-apps/beta/src/",
-                        "OsDownTime\\ClientApps\\Gamma\\": "client-apps/gamma/src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "OsDownTime\\ConsoleHost\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Os Online",
-                        "email": "osonlineinbox@gmail.com"
-                    }
-                ],
-                "description": "TBD",
-                "support": {
-                    "source": "https://github.com/os-downtime/console-host/tree/semantic-revamp",
                     "issues": "https://github.com/os-downtime/console-host/issues"
                 }
             }

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/console-host.git",
-                    "reference": "fd2502b46ba98c62ff365c73939ccb45a8132451"
+                    "reference": "4de2b68263c6a6d12fa72db666dda3387c7a18ed"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/fd2502b46ba98c62ff365c73939ccb45a8132451",
-                    "reference": "fd2502b46ba98c62ff365c73939ccb45a8132451",
+                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/4de2b68263c6a6d12fa72db666dda3387c7a18ed",
+                    "reference": "4de2b68263c6a6d12fa72db666dda3387c7a18ed",
                     "shasum": ""
                 },
                 "require": {
@@ -21,7 +21,8 @@
                     "php": "^8.4",
                     "symfony/config": "^8.0",
                     "symfony/console": "^8.0",
-                    "symfony/dependency-injection": "^8.0"
+                    "symfony/dependency-injection": "^8.0",
+                    "symfony/monolog-bridge": "^8.0"
                 },
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "^3.88",
@@ -29,7 +30,7 @@
                     "phpunit/phpunit": "^12.3",
                     "symfony/process": "^8.0"
                 },
-                "time": "2026-02-06T17:30:06+00:00",
+                "time": "2026-02-07T14:06:13+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

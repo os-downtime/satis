@@ -55,19 +55,19 @@
             }
         },
         "os-downtime/console-host": {
-            "dev-main": {
+            "dev-exposed-logger": {
                 "name": "os-downtime/console-host",
-                "version": "dev-main",
-                "version_normalized": "dev-main",
+                "version": "dev-exposed-logger",
+                "version_normalized": "dev-exposed-logger",
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/console-host.git",
-                    "reference": "09d5afe2fe0fa2e865e57d9c590d6048db5b39b7"
+                    "reference": "bfd9e60d377fe875edc716fef4ccceffd2fe6bc0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/09d5afe2fe0fa2e865e57d9c590d6048db5b39b7",
-                    "reference": "09d5afe2fe0fa2e865e57d9c590d6048db5b39b7",
+                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/bfd9e60d377fe875edc716fef4ccceffd2fe6bc0",
+                    "reference": "bfd9e60d377fe875edc716fef4ccceffd2fe6bc0",
                     "shasum": ""
                 },
                 "require": {
@@ -84,7 +84,66 @@
                     "phpunit/phpunit": "^12.3",
                     "symfony/process": "^8.0"
                 },
-                "time": "2026-02-11T16:34:44+00:00",
+                "time": "2026-02-11T17:09:46+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\ConsoleHost\\": "src/",
+                        "OsDownTime\\ClientApps\\Alpha\\": "client-apps/alpha/src/",
+                        "OsDownTime\\ClientApps\\Beta\\": "client-apps/beta/src/",
+                        "OsDownTime\\ClientApps\\Gamma\\": "client-apps/gamma/src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\ConsoleHost\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "TBD",
+                "support": {
+                    "source": "https://github.com/os-downtime/console-host/tree/exposed-logger",
+                    "issues": "https://github.com/os-downtime/console-host/issues"
+                }
+            },
+            "dev-main": {
+                "name": "os-downtime/console-host",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/console-host.git",
+                    "reference": "50672723a54ac28007f26cd59fc0e01b89282f7f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/50672723a54ac28007f26cd59fc0e01b89282f7f",
+                    "reference": "50672723a54ac28007f26cd59fc0e01b89282f7f",
+                    "shasum": ""
+                },
+                "require": {
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.4",
+                    "symfony/config": "^8.0",
+                    "symfony/console": "^8.0",
+                    "symfony/dependency-injection": "^8.0",
+                    "symfony/monolog-bridge": "^8.0"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3",
+                    "symfony/process": "^8.0"
+                },
+                "time": "2026-02-11T17:10:04+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

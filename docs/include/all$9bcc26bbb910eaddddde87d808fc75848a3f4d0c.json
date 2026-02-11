@@ -62,12 +62,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/console-host.git",
-                    "reference": "cb1312bec84f70f62c58d2c83d6ab8be51f21e92"
+                    "reference": "09d5afe2fe0fa2e865e57d9c590d6048db5b39b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/cb1312bec84f70f62c58d2c83d6ab8be51f21e92",
-                    "reference": "cb1312bec84f70f62c58d2c83d6ab8be51f21e92",
+                    "url": "https://api.github.com/repos/os-downtime/console-host/zipball/09d5afe2fe0fa2e865e57d9c590d6048db5b39b7",
+                    "reference": "09d5afe2fe0fa2e865e57d9c590d6048db5b39b7",
                     "shasum": ""
                 },
                 "require": {
@@ -84,7 +84,7 @@
                     "phpunit/phpunit": "^12.3",
                     "symfony/process": "^8.0"
                 },
-                "time": "2026-02-07T16:03:50+00:00",
+                "time": "2026-02-11T16:34:44+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

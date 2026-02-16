@@ -1,0 +1,58 @@
+{
+    "packages": {
+        "os-downtime/hermes-endpoint": [
+            {
+                "name": "os-downtime/hermes-endpoint",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/hermes-endpoint.git",
+                    "reference": "75979a13c94b91a37d77618ce311e840c168ec84"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/75979a13c94b91a37d77618ce311e840c168ec84",
+                    "reference": "75979a13c94b91a37d77618ce311e840c168ec84",
+                    "shasum": ""
+                },
+                "require": {
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3"
+                },
+                "time": "2026-02-16T07:17:32+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\HermesEndpoint\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\HermesEndpoint\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "Opinionated message bus like library to support event-driven PHP applications",
+                "support": {
+                    "source": "https://github.com/os-downtime/hermes-endpoint/tree/main",
+                    "issues": "https://github.com/os-downtime/hermes-endpoint/issues"
+                }
+            }
+        ]
+    }
+}

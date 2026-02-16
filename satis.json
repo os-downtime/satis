@@ -56,6 +56,11 @@
             "type": "vcs",
             "url": "https://github.com/os-downtime/console-host",
             "name": "os-downtime/console-host"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/hermes-endpoint",
+            "name": "os-downtime/hermes-endpoint"
         }
     ],
     "require-all": true,

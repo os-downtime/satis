@@ -1,8 +1,8 @@
 {
     "packages": [],
     "includes": {
-        "include/all$8fd2525d0b21efeb25a340fd1bd7766831c85ccb.json": {
-            "sha1": "8fd2525d0b21efeb25a340fd1bd7766831c85ccb"
+        "include/all$e329dcd8cd13fccd02f0e5eeb4872786e0acf4e1.json": {
+            "sha1": "e329dcd8cd13fccd02f0e5eeb4872786e0acf4e1"
         }
     },
     "metadata-url": "/satis/p2/%package%.json",
@@ -14,6 +14,7 @@
         "os-downtime/dbal-utils",
         "os-downtime/document-storage",
         "os-downtime/extended-php",
+        "os-downtime/hermes-endpoint",
         "os-downtime/hosted-service",
         "os-downtime/ipc-array",
         "os-downtime/messaging",

@@ -809,12 +809,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/hermes-endpoint.git",
-                    "reference": "6ac18bff23db157361942ec0de0ae2157bec8fdc"
+                    "reference": "a6dd77dd1713d10657f62e7b2fccfe11e5d4bb2b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/6ac18bff23db157361942ec0de0ae2157bec8fdc",
-                    "reference": "6ac18bff23db157361942ec0de0ae2157bec8fdc",
+                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/a6dd77dd1713d10657f62e7b2fccfe11e5d4bb2b",
+                    "reference": "a6dd77dd1713d10657f62e7b2fccfe11e5d4bb2b",
                     "shasum": ""
                 },
                 "require": {
@@ -822,7 +822,9 @@
                     "ext-pcntl": "*",
                     "ext-posix": "*",
                     "os-downtime/extended-php": "dev-main",
-                    "php": "^8.4"
+                    "php": "^8.4",
+                    "symfony/clock": "^8.0",
+                    "symfony/uid": "^8.0"
                 },
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "^3.88",
@@ -830,7 +832,7 @@
                     "phpunit/phpunit": "^12.3",
                     "symfony/process": "^8.0"
                 },
-                "time": "2026-02-21T10:33:11+00:00",
+                "time": "2026-02-21T16:08:39+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {
@@ -855,61 +857,6 @@
                 "description": "Opinionated message bus like library to support event-driven PHP applications",
                 "support": {
                     "source": "https://github.com/os-downtime/hermes-endpoint/tree/main",
-                    "issues": "https://github.com/os-downtime/hermes-endpoint/issues"
-                }
-            },
-            "dev-sandbox": {
-                "name": "os-downtime/hermes-endpoint",
-                "version": "dev-sandbox",
-                "version_normalized": "dev-sandbox",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:os-downtime/hermes-endpoint.git",
-                    "reference": "7056d09516f77a204df82a0c2051cd797cef73dd"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/7056d09516f77a204df82a0c2051cd797cef73dd",
-                    "reference": "7056d09516f77a204df82a0c2051cd797cef73dd",
-                    "shasum": ""
-                },
-                "require": {
-                    "doctrine/dbal": "^4.4",
-                    "ext-pcntl": "*",
-                    "ext-posix": "*",
-                    "os-downtime/extended-php": "dev-main",
-                    "php": "^8.4"
-                },
-                "require-dev": {
-                    "friendsofphp/php-cs-fixer": "^3.88",
-                    "phpstan/phpstan": "^2.1",
-                    "phpunit/phpunit": "^12.3",
-                    "symfony/process": "^8.0"
-                },
-                "time": "2026-02-21T10:30:00+00:00",
-                "type": "library",
-                "autoload": {
-                    "psr-4": {
-                        "OsDownTime\\HermesEndpoint\\": "src/"
-                    }
-                },
-                "autoload-dev": {
-                    "psr-4": {
-                        "OsDownTime\\HermesEndpoint\\Tests\\": "tests/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Os Online",
-                        "email": "osonlineinbox@gmail.com"
-                    }
-                ],
-                "description": "Opinionated message bus like library to support event-driven PHP applications",
-                "support": {
-                    "source": "https://github.com/os-downtime/hermes-endpoint/tree/sandbox",
                     "issues": "https://github.com/os-downtime/hermes-endpoint/issues"
                 }
             }

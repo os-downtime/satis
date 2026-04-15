@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/hermes-endpoint.git",
-                    "reference": "618bc166ff92a3c58ffe678d3c9b344df295ddf1"
+                    "reference": "60f4e2b09b613670d65954dc65b6794caff71d0f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/618bc166ff92a3c58ffe678d3c9b344df295ddf1",
-                    "reference": "618bc166ff92a3c58ffe678d3c9b344df295ddf1",
+                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/60f4e2b09b613670d65954dc65b6794caff71d0f",
+                    "reference": "60f4e2b09b613670d65954dc65b6794caff71d0f",
                     "shasum": ""
                 },
                 "require": {
@@ -32,7 +32,7 @@
                     "phpunit/phpunit": "^12.3",
                     "symfony/process": "^8.0"
                 },
-                "time": "2026-02-25T16:45:45+00:00",
+                "time": "2026-04-15T05:59:09+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

@@ -809,12 +809,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/hermes-endpoint.git",
-                    "reference": "60f4e2b09b613670d65954dc65b6794caff71d0f"
+                    "reference": "04f7911ef8da8217beda3199bf0b21aa257257c1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/60f4e2b09b613670d65954dc65b6794caff71d0f",
-                    "reference": "60f4e2b09b613670d65954dc65b6794caff71d0f",
+                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/04f7911ef8da8217beda3199bf0b21aa257257c1",
+                    "reference": "04f7911ef8da8217beda3199bf0b21aa257257c1",
                     "shasum": ""
                 },
                 "require": {
@@ -823,17 +823,19 @@
                     "ext-posix": "*",
                     "os-downtime/extended-php": "dev-main",
                     "php": "^8.4",
+                    "psr/container": "^2.0",
                     "symfony/clock": "^8.0",
                     "symfony/event-dispatcher": "^8.0",
                     "symfony/uid": "^8.0"
                 },
                 "require-dev": {
+                    "ext-pdo": "*",
                     "friendsofphp/php-cs-fixer": "^3.88",
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.3",
                     "symfony/process": "^8.0"
                 },
-                "time": "2026-04-15T05:59:09+00:00",
+                "time": "2026-04-27T06:25:58+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

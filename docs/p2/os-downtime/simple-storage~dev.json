@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "os-downtime/simple-storage": [
+            {
+                "name": "os-downtime/simple-storage",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/simple-storage.git",
+                    "reference": "1368c6d2543760b239d23716ec4cdef7ac77cd64"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/simple-storage/zipball/1368c6d2543760b239d23716ec4cdef7ac77cd64",
+                    "reference": "1368c6d2543760b239d23716ec4cdef7ac77cd64",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "^4.4",
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.4"
+                },
+                "require-dev": {
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3"
+                },
+                "time": "2026-05-07T15:36:47+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\SimpleStorage\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\SimpleStorage\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "A generic utility to speed up the development of storage solutions",
+                "support": {
+                    "source": "https://github.com/os-downtime/simple-storage/tree/main",
+                    "issues": "https://github.com/os-downtime/simple-storage/issues"
+                }
+            }
+        ]
+    }
+}

@@ -61,6 +61,11 @@
             "type": "vcs",
             "url": "https://github.com/os-downtime/hermes-endpoint",
             "name": "os-downtime/hermes-endpoint"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/simple-storage",
+            "name": "os-downtime/simple-storage"
         }
     ],
     "require-all": true,

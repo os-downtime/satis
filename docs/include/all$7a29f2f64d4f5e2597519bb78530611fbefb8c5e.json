@@ -1175,12 +1175,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/simple-storage.git",
-                    "reference": "8045186f77a4e1be6c93545ad14d36a2c454876c"
+                    "reference": "cad14d5a94a3869909368bd215ce15b3f9c38111"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/simple-storage/zipball/8045186f77a4e1be6c93545ad14d36a2c454876c",
-                    "reference": "8045186f77a4e1be6c93545ad14d36a2c454876c",
+                    "url": "https://api.github.com/repos/os-downtime/simple-storage/zipball/cad14d5a94a3869909368bd215ce15b3f9c38111",
+                    "reference": "cad14d5a94a3869909368bd215ce15b3f9c38111",
                     "shasum": ""
                 },
                 "require": {
@@ -1191,9 +1191,10 @@
                 "require-dev": {
                     "friendsofphp/php-cs-fixer": "^3.88",
                     "phpstan/phpstan": "^2.1",
+                    "phpstan/phpstan-deprecation-rules": "^2.0",
                     "phpunit/phpunit": "^12.3"
                 },
-                "time": "2026-05-07T15:55:00+00:00",
+                "time": "2026-05-08T10:15:26+00:00",
                 "default-branch": true,
                 "type": "library",
                 "autoload": {

@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/hermes-endpoint.git",
-                    "reference": "210eba6a765c18996d276a570d81f99b3cc42f8f"
+                    "reference": "9eee9eab8ed97a3d21326c32efb356ada34370b5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/210eba6a765c18996d276a570d81f99b3cc42f8f",
-                    "reference": "210eba6a765c18996d276a570d81f99b3cc42f8f",
+                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/9eee9eab8ed97a3d21326c32efb356ada34370b5",
+                    "reference": "9eee9eab8ed97a3d21326c32efb356ada34370b5",
                     "shasum": ""
                 },
                 "require": {
@@ -24,9 +24,9 @@
                     "os-downtime/extended-php": "dev-main",
                     "php": "^8.4",
                     "psr/container": "^2.0",
-                    "symfony/clock": "^8.0",
-                    "symfony/event-dispatcher": "^8.0",
-                    "symfony/uid": "^8.0"
+                    "symfony/clock": "^8.1",
+                    "symfony/event-dispatcher": "^8.1",
+                    "symfony/uid": "^8.1"
                 },
                 "require-dev": {
                     "ext-pdo": "*",
@@ -34,11 +34,16 @@
                     "kwn/php-rdkafka-stubs": "^3.0",
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.3",
-                    "symfony/process": "^8.0"
+                    "symfony/process": "^8.1"
                 },
-                "time": "2026-05-01T14:19:41+00:00",
+                "time": "2026-05-08T14:45:26+00:00",
                 "default-branch": true,
                 "type": "library",
+                "extra": {
+                    "symfony": {
+                        "require": "8.1.*"
+                    }
+                },
                 "autoload": {
                     "psr-4": {
                         "OsDownTime\\HermesEndpoint\\": "src/"

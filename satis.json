@@ -66,6 +66,11 @@
             "type": "vcs",
             "url": "https://github.com/os-downtime/simple-storage",
             "name": "os-downtime/simple-storage"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/os-downtime/runtime",
+            "name": "os-downtime/runtime"
         }
     ],
     "require-all": true,

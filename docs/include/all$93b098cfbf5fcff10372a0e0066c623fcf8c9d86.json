@@ -1180,12 +1180,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/runtime.git",
-                    "reference": "623dae2790a2410ebe13ff4553b52c989614307d"
+                    "reference": "cf6043f1aac14223742c0aa70a81d86ccf744991"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/runtime/zipball/623dae2790a2410ebe13ff4553b52c989614307d",
-                    "reference": "623dae2790a2410ebe13ff4553b52c989614307d",
+                    "url": "https://api.github.com/repos/os-downtime/runtime/zipball/cf6043f1aac14223742c0aa70a81d86ccf744991",
+                    "reference": "cf6043f1aac14223742c0aa70a81d86ccf744991",
                     "shasum": ""
                 },
                 "require": {
@@ -1201,7 +1201,7 @@
                     "phpstan/phpstan": "^2.1",
                     "phpunit/phpunit": "^12.3"
                 },
-                "time": "2026-05-13T07:07:32+00:00",
+                "time": "2026-05-13T07:12:47+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {

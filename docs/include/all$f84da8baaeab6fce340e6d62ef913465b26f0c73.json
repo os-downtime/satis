@@ -811,6 +811,74 @@
                     "source": "https://github.com/os-downtime/hermes-endpoint/tree/main",
                     "issues": "https://github.com/os-downtime/hermes-endpoint/issues"
                 }
+            },
+            "dev-test-support": {
+                "name": "os-downtime/hermes-endpoint",
+                "version": "dev-test-support",
+                "version_normalized": "dev-test-support",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:os-downtime/hermes-endpoint.git",
+                    "reference": "c96954969943a35c21a7eb1e51ac63700786234d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/c96954969943a35c21a7eb1e51ac63700786234d",
+                    "reference": "c96954969943a35c21a7eb1e51ac63700786234d",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/dbal": "^4.4",
+                    "ext-pcntl": "*",
+                    "ext-posix": "*",
+                    "ext-rdkafka": "*",
+                    "os-downtime/extended-php": "dev-main",
+                    "php": "^8.5",
+                    "psr/container": "^2.0",
+                    "psr/log": "^3.0",
+                    "symfony/clock": "^8.1",
+                    "symfony/event-dispatcher": "^8.1",
+                    "symfony/uid": "^8.1"
+                },
+                "require-dev": {
+                    "ext-pdo": "*",
+                    "friendsofphp/php-cs-fixer": "^3.88",
+                    "kwn/php-rdkafka-stubs": "^3.0",
+                    "phpstan/phpstan": "^2.1",
+                    "phpunit/phpunit": "^12.3",
+                    "symfony/process": "^8.1"
+                },
+                "time": "2026-06-03T16:02:51+00:00",
+                "type": "library",
+                "extra": {
+                    "symfony": {
+                        "require": "8.1.*"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "OsDownTime\\HermesEndpoint\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OsDownTime\\HermesEndpoint\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Os Online",
+                        "email": "osonlineinbox@gmail.com"
+                    }
+                ],
+                "description": "Opinionated message bus like library to support event-driven PHP applications",
+                "support": {
+                    "source": "https://github.com/os-downtime/hermes-endpoint/tree/test-support",
+                    "issues": "https://github.com/os-downtime/hermes-endpoint/issues"
+                }
             }
         },
         "os-downtime/hosted-service": {

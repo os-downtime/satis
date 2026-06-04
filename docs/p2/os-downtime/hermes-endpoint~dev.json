@@ -71,7 +71,7 @@
                 ],
                 "description": "Opinionated message bus like library to support event-driven PHP applications",
                 "support": {
-                    "source": "https://github.com/os-downtime/hermes-endpoint/tree/main",
+                    "source": "https://github.com/os-downtime/hermes-endpoint/tree/0.1.0",
                     "issues": "https://github.com/os-downtime/hermes-endpoint/issues"
                 }
             }

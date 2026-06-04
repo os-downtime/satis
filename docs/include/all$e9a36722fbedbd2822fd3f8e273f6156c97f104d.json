@@ -750,12 +750,12 @@
                 "source": {
                     "type": "git",
                     "url": "git@github.com:os-downtime/hermes-endpoint.git",
-                    "reference": "d5ea9364263d08430718b1839577ff62900806fa"
+                    "reference": "049d4601a1bcd8dffc346b99f0eb7ae8d789fa93"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/d5ea9364263d08430718b1839577ff62900806fa",
-                    "reference": "d5ea9364263d08430718b1839577ff62900806fa",
+                    "url": "https://api.github.com/repos/os-downtime/hermes-endpoint/zipball/049d4601a1bcd8dffc346b99f0eb7ae8d789fa93",
+                    "reference": "049d4601a1bcd8dffc346b99f0eb7ae8d789fa93",
                     "shasum": ""
                 },
                 "require": {
@@ -783,7 +783,7 @@
                     "symfony/monolog-bridge": "^8.1",
                     "symfony/process": "^8.1"
                 },
-                "time": "2026-06-04T13:40:26+00:00",
+                "time": "2026-06-04T14:36:55+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
